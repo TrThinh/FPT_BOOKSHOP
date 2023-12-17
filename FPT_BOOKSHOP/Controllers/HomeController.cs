@@ -1,32 +1,61 @@
-﻿using FPT_BOOKSHOP.Models;
+﻿using FPT_BOOKSHOP.Data;
+using FPT_BOOKSHOP.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace FPT_BOOKSHOP.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _db;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ApplicationDbContext db)
         {
-            _logger = logger;
+            this._db = db;
         }
-
         public IActionResult Index()
         {
-            return View();
+            var ds = _db.Books.Include(b => b.category).ToList();
+            return View(ds);
         }
 
-        public IActionResult Privacy()
+        public IActionResult Detail(int id)
+        {
+            var book = _db.Books.Find(id);
+            if (book == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            return View(book);
+        }
+
+        [HttpGet]
+        public IActionResult Index(string keyword)
+        {
+            if (_db.Books == null)
+            {
+                return NotFound();
+            }
+            var books = from b in _db.Books select b;
+            if (!String.IsNullOrEmpty(keyword))
+            {
+                books = books.Where(s => s.status == 1 && s.name!.Contains(keyword));
+            }
+
+            return View(books.ToList());
+        }
+
+        public IActionResult Help()
         {
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+
+        public IActionResult AccessDenied()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
     }
 }
