@@ -13,6 +13,70 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\TheGiver.png",
+      "PackagePath": "staticwebassets\\img\\TheGiver.png"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\TimenowtoDream.png",
+      "PackagePath": "staticwebassets\\img\\TimenowtoDream.png"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\a_dog's_life.jpg",
+      "PackagePath": "staticwebassets\\img\\a_dog's_life.jpg"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\book1.jpg",
+      "PackagePath": "staticwebassets\\img\\book1.jpg"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\bookPrograming.png",
+      "PackagePath": "staticwebassets\\img\\bookPrograming.png"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\br1.jpg",
+      "PackagePath": "staticwebassets\\img\\br1.jpg"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\esp2.png",
+      "PackagePath": "staticwebassets\\img\\esp2.png"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\harry_potter_and_the_deathly_hallows.jpg",
+      "PackagePath": "staticwebassets\\img\\harry_potter_and_the_deathly_hallows.jpg"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\introduction_to_algorithms.png",
+      "PackagePath": "staticwebassets\\img\\introduction_to_algorithms.png"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\img\\logo.jpg"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\refactoring_improving_the_design_of_existing_code.jpg",
+      "PackagePath": "staticwebassets\\img\\refactoring_improving_the_design_of_existing_code.jpg"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\the_clean_coder.jpg",
+      "PackagePath": "staticwebassets\\img\\the_clean_coder.jpg"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\the_giver.jpg",
+      "PackagePath": "staticwebassets\\img\\the_giver.jpg"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\the_pragmatic_programmer.jpg",
+      "PackagePath": "staticwebassets\\img\\the_pragmatic_programmer.jpg"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\three_men_in_a_Boat.jpg",
+      "PackagePath": "staticwebassets\\img\\three_men_in_a_Boat.jpg"
+    },
+    {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\time_now_to_dream.jpg",
+      "PackagePath": "staticwebassets\\img\\time_now_to_dream.jpg"
+    },
+    {
       "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
