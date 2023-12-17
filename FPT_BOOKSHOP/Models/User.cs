@@ -27,7 +27,7 @@ namespace FPT_BOOKSHOP.Models
         [DefaultValue(1), Range(0,2)]
         public int status { get; set; }
         [Required]
-        [DefaultValue("customer")]
+        [DefaultValue("Customer")]
         public string Role { get; set; }
         [Required]
         [RegularExpression("^([0-9]{10})$", ErrorMessage = "Invalid Mobile Number.")]
