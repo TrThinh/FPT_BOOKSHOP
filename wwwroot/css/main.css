@@ -527,12 +527,12 @@ ul.sub-menu {
 
 
 .searchform button {
-  background: #3A5C83;
-  border: medium none;
-  border-radius: 0;
-  margin-left: -5px;
-  margin-top: -3px;
-  padding: 7px 17px;
+	background: #03045e;
+	border: medium none;
+	border-radius: 0;
+	margin-left: -5px;
+	margin-top: -3px;
+	padding: 7px 17px;
 }
 
 .searchform button i {
@@ -540,9 +540,9 @@ ul.sub-menu {
   font-size: 20px;
 }
 
-.searchform  button:hover, 
-.searchform  button:focus{
-	background-color:#3A5C83;
+.searchform button:hover,
+.searchform button:focus {
+	background-color: #caf0f8;
 }
 
 .searchform p {

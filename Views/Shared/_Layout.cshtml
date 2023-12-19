@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] FPT_BOOKSHOP</title>
+    <title>@ViewData["Title"] BOOK SHOP</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet'
@@ -27,38 +27,15 @@
 
 <body>
     <header>
-        <div class="header_top" style="background-color:#00CCCC"><!--header_top-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="contactinfo">
-                            <ul class="nav nav-pills">
-                                <li><a><i class="fa fa-phone"></i> +84 0999 999 999</a></li>
-                                <li><a><i class="fa fa-envelope"></i> fpt@gmail.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="social-icons pull-right">
-                            <ul class="nav navbar-nav" style="flex-direction: unset">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!--/header_top-->
 
-        <div class="header-middle" style="background-color:white"><!--header-middle-->
+        <div class="header-middle" style="background-color: white">
+            <!--header-middle-->
             <div class="container">
                 <div>
                     <div class="col-sm-6">
                         <div class="logo pull-left">
                             <a asp-controller="Home" asp-action="Index" style="color:#000000">
-                                <img src="~/img/logo.jpg" alt="Logo" width="80" height="80">
+                                <img src="~/img/logo.png" alt="Logo" width="80" height="80">
                             </a>
                         </div>
                     </div>
@@ -71,10 +48,10 @@
             </div>
         </div><!--/header-middle-->
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3"
-            style="background-color:#00CCCC">
+             style="background-color:#90e0ef">
             <div class="container">
 
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FPT_BOOKSHOP</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">BOOK SHOP</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -84,7 +61,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        @if (User.IsInRole("admin") || User.IsInRole("storeowner"))
+                        @if (User.IsInRole("storeowner"))
                         {
                             <li class="nav-item mynav_dropdown">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="">Management<i
@@ -97,7 +74,16 @@
                                         <a asp-controller="StoreOwner" asp-action="ViewListOrders">Order</a>
                                         <a asp-controller="StoreOwner" asp-action="BestSellerBook">Bestseller Book</a>
                                     }
-
+                                </div>
+                            </li>
+                        }
+                        @if (User.IsInRole("admin") )
+                        {
+                            <li class="nav-item mynav_dropdown">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="">
+                                    Management<i class="fa fa-caret-down"></i>
+                                </a>
+                                <div class="mynav_dropdown-content">
                                     @if (User.IsInRole("admin"))
                                     {
                                         <a asp-controller="Admin" asp-action="ViewListAccounts">Account</a>
@@ -106,10 +92,6 @@
                                 </div>
                             </li>
                         }
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-route-id="@User.Identity.Name" asp-controller="Cart"
-                                asp-action="Index">Cart</a>
-                        </li>
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
@@ -128,6 +110,10 @@
                                 aria-label="Search" required>
                             <button class="btn btn-outline-success" type="submit">Search</button>
                         </form>
+                        <li class="nav-item">
+                            <a style="padding-left: 20px;" class="nav-link text-dark" asp-route-id="@User.Identity.Name" asp-controller="Cart"
+                               asp-action="Index"><img src="~/img/shopping-cart.png" alt="Logo" width="30" height="30"></a>
+                        </li>
                     </div>
                 </div>
             </div>
@@ -145,16 +131,12 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="footer-about-us">
-                        <h2>FPT_BOOKSHOP</h2>
-                        <p></p>
-                        <div class="footer-social">
-                            <a target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
-                        </div>
+                        <h2>BOOK SHOP</h2>
+                        <p>Other</p>
                     </div>
                 </div>
 
+                
                 <div class="col-md-3 col-sm-6">
                     <div class="footer-menu">
                         <h2 class="footer-wid-title">User</h2>
@@ -167,17 +149,6 @@
                         </ul>
                     </div>
                 </div>
-
-                @* <div class="col-md-3 col-sm-6">
-                    <div class="footer-menu">
-                        <h2 class="footer-wid-title">Classify</h2>
-                        <ul>
-                            <li><a href="#">Keyboards</a></li>
-                            <li><a href="#">Gaming Mouse</a></li>
-                            <li><a href="#">Headphones</a></li>
-                        </ul>
-                    </div>
-                </div> *@
             </div>
         </div>
     </div> <!-- End footer top area -->
@@ -187,7 +158,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                        <p>&copy; 2023 - FPT_BOOKSHOP</p>
+                        <p>&copy; 2023 - BOOK SHOP</p>
                     </div>
                 </div>
 
