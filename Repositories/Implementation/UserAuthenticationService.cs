@@ -1,16 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
 using System.Security.Claims;
+using System.Threading.Tasks;
 using FPT_BOOKSHOP.Models;
 using FPT_BOOKSHOP.Models.DTO;
 using FPT_BOOKSHOP.Repositories.Abstract;
 using Microsoft.AspNetCore.Identity;
 
-namespace FPTBook.Repositories.Implementation
+namespace FPT_BOOKSHOP.Repositories.Implementation
 {
+    [NotMapped]
     public class UserAuthenticationService : IUserAuthenticationService
     {
         private readonly SignInManager<User> signInManager;
         private readonly UserManager<User> userManager;
         private readonly RoleManager<IdentityRole> roleManager;
+
         public UserAuthenticationService(SignInManager<User> signInManager, UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
         {
             this.signInManager = signInManager;
@@ -125,7 +132,8 @@ namespace FPTBook.Repositories.Implementation
             var status = new Status();
             var userExists = await userManager.FindByNameAsync(model.Username);
             var emailExist = await userManager.FindByEmailAsync(model.Email);
-            if(userExists != null || emailExist != null){
+            if (userExists != null || emailExist != null)
+            {
                 status.StatusCode = 0;
                 status.Message = "User already existed";
                 return status;
@@ -144,19 +152,22 @@ namespace FPTBook.Repositories.Implementation
                 Role = model.Role,
             };
 
-            var result = await userManager.CreateAsync(user,model.Password);
-            if(!result.Succeeded){
+            var result = await userManager.CreateAsync(user, model.Password);
+            if (!result.Succeeded)
+            {
                 status.StatusCode = 0;
                 status.Message = "User register failed";
                 return status;
             }
 
             //role
-            if(!await roleManager.RoleExistsAsync(model.Role)){
+            if (!await roleManager.RoleExistsAsync(model.Role))
+            {
                 await roleManager.CreateAsync(new IdentityRole(model.Role));
             }
 
-            if(await roleManager.RoleExistsAsync(model.Role)){
+            if (await roleManager.RoleExistsAsync(model.Role))
+            {
                 await userManager.AddToRoleAsync(user, model.Role);
             }
 

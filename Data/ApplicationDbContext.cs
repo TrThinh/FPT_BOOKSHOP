@@ -6,7 +6,7 @@ using System.Data;
 
 namespace FPT_BOOKSHOP.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<User>
     {
 
         public DbSet<User> Users { get; set; }
@@ -25,6 +25,10 @@ namespace FPT_BOOKSHOP.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole { Name = "admin", NormalizedName = "ADMIN" });
+            modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole { Name = "customer", NormalizedName = "CUSTOMER" });
+            modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole { Name = "storeOwner", NormalizedName = "STOREOWNER" });
         }
     }
 }

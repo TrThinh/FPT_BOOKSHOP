@@ -1,8 +1,12 @@
+using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
-
+using System.Text.RegularExpressions; 
 
 namespace FPT_BOOKSHOP.Models
 {
@@ -27,7 +31,7 @@ namespace FPT_BOOKSHOP.Models
         [DefaultValue(1), Range(0,2)]
         public int status { get; set; }
         [Required]
-        [DefaultValue("Customer")]
+        [DefaultValue("customer")]
         public string Role { get; set; }
         [Required]
         [RegularExpression("^([0-9]{10})$", ErrorMessage = "Invalid Mobile Number.")]

@@ -1,7 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
 using FPT_BOOKSHOP.Models.DTO;
 using FPT_BOOKSHOP.Repositories.Abstract;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace FPT_BOOKSHOP.Controllers
 {
@@ -24,7 +31,7 @@ namespace FPT_BOOKSHOP.Controllers
             {
                 return View(model);
             }
-            model.Role = "Customer";
+            model.Role = "customer";
             var result = await _service.RegistrationAsync(model);
             TempData["msg"] = result.Message;
             return RedirectToAction(nameof(Registration));
@@ -79,13 +86,13 @@ namespace FPT_BOOKSHOP.Controllers
             return RedirectToAction("ChangePassword", "UserAuthentication");
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         public IActionResult AddAccount()
         {
             return View();
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         [HttpPost]
         public async Task<IActionResult> AddAccount(RegistrationModel model)
         {
@@ -98,14 +105,14 @@ namespace FPT_BOOKSHOP.Controllers
             return RedirectToAction(nameof(AddAccount));
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         public IActionResult ResetPassword(string username)
         {
             TempData["user"] = username;
             return View();
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         [HttpPost]
         public async Task<IActionResult> ResetPassword(ResetPasswordModel model)
         {

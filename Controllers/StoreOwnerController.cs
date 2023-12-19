@@ -1,13 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
 using FPT_BOOKSHOP.Data;
 using FPT_BOOKSHOP.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace FPT_BOOKSHOP.Controllers
 {
-    [Authorize(Roles = "Owner")]
+    [Authorize(Roles = "storeowner")]
     public class StoreOwnerController : Controller
     {
         private readonly ApplicationDbContext _db;

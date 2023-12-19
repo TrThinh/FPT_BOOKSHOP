@@ -4,6 +4,32 @@
     ViewData["Title"] = "Home Page";
 }
 
+@* <div class="slider-area">
+    <!-- Slider -->
+    <div class="block-slider block-slider4">
+        <ul class="" id="bxslider-home4">
+            <li>
+                <img src="~/img/TimenowtoDream.png" width="100" height="50" alt="Slide">
+                <div class="caption-group">
+                    <h2 class="">
+                    </h2>
+                    <h4 class=""></h4>
+
+                </div>
+            </li>
+            <li><img src="~/img/bookPrograming.png" alt="Slide">
+                <div class="caption-group">
+                    <h2 class="">
+                    </h2>
+                    <h4 class=""></h4>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <!-- ./Slider -->
+</div> <!-- End slider area --> *@
+
 <div id="slideshow">
    <div class="slide-wrapper">
      <div class="slide"><img src="~/img/bookPrograming.png"></div>
@@ -15,7 +41,7 @@
 
 
   <div class="row">
-@*@foreach (var book in Model)
+@foreach (var book in Model)
 {
     @if(book.status == 1) 
     {
@@ -34,7 +60,7 @@
         </div>
     }
     
-}*@
+}
     
   </div>
 </div>
