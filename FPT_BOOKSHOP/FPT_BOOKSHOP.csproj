@@ -29,8 +29,8 @@
     <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Areas\Customer\Controllers\" />
     <Folder Include="Areas\Customer\Views\" />
-    <Folder Include="Areas\Owner\Controllers\" />
-    <Folder Include="Areas\Owner\Views\" />
+    <Folder Include="Areas\StoreOwner\Controllers\" />
+    <Folder Include="Areas\StoreOwner\Views\" />
   </ItemGroup>
 
 </Project>
