@@ -28,7 +28,7 @@ namespace FPT_BOOKSHOP.Data
 
             modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole { Name = "admin", NormalizedName = "ADMIN" });
             modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole { Name = "customer", NormalizedName = "CUSTOMER" });
-            modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole { Name = "storeOwner", NormalizedName = "STOREOWNER" });
+            modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole { Name = "storeowner", NormalizedName = "STOREOWNER" });
         }
     }
 }

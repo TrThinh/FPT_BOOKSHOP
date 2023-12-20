@@ -69,10 +69,10 @@
                                 <div class="mynav_dropdown-content">
                                     @if (User.IsInRole("storeowner"))
                                     {
-                                        <a asp-controller="StoreOwner" asp-action="ViewListBooks">Book</a>
-                                        <a asp-controller="StoreOwner" asp-action="ViewListCategories">Category</a>
-                                        <a asp-controller="StoreOwner" asp-action="ViewListOrders">Order</a>
-                                        <a asp-controller="StoreOwner" asp-action="BestSellerBook">Bestseller Book</a>
+                                        <a asp-area="StoreOwner" asp-controller="StoreOwner" asp-action="ViewListBooks">Book</a>
+                                        <a asp-area="StoreOwner" asp-controller="StoreOwner" asp-action="ViewListCategories">Category</a>
+                                        <a asp-area="StoreOwner" asp-controller="StoreOwner" asp-action="ViewListOrders">Order</a>
+                                        <a asp-area="StoreOwner" asp-controller="StoreOwner" asp-action="BestSellerBook">Bestseller Book</a>
                                     }
                                 </div>
                             </li>
@@ -86,8 +86,8 @@
                                 <div class="mynav_dropdown-content">
                                     @if (User.IsInRole("admin"))
                                     {
-                                        <a asp-controller="Admin" asp-action="ViewListAccounts">Account</a>
-                                        <a asp-controller="Admin" asp-action="CategoryApproval">Category Approval</a>
+                                        <a asp-area="Admin" asp-controller="Admin" asp-action="ViewListAccounts">Account</a>
+                                        <a asp-area="Admin" asp-controller="Admin" asp-action="CategoryApproval">Category Approval</a>
                                     }
                                 </div>
                             </li>
@@ -95,7 +95,7 @@
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-route-username="@User.Identity.Name"
+                                <a class="nav-link text-dark" asp-route-username="@User.Identity.Name" asp-area="Customer"
                                 asp-controller="Customer" asp-action="Profile">Profile</a>
                             </li>
                         }
