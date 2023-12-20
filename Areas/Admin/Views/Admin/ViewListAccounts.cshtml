@@ -6,7 +6,7 @@
 
 <h1>Manage Account</h1>
 <p>
-    <button class="btn btn-primary"><a style="color: white;" asp-controller="UserAuthentication"
+    <button class="btn btn-primary"><a style="color: white;" asp-area="Admin" asp-controller="Account"
             asp-action="AddAccount">Add</a></button>
 </p>
 <table class="table">
@@ -35,7 +35,7 @@
                 <td>@item.Role</td>
                 <td>
                     <button class="btn btn-primary" style="margin-top: 0px;">
-                        <a style="color: white;" asp-controller="UserAuthentication" asp-action="ResetPassword"
+                        <a style="color: white;" asp-area="Admin" asp-controller="Account" asp-action="ResetPassword"
                         asp-route-username="@item.UserName">Reset</a>
                     </button>
                 </td>

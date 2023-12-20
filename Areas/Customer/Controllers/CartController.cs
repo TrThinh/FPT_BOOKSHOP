@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace FPT_BOOKSHOP.Controllers
+namespace FPT_BOOKSHOP.Areas.Customer.Controllers
 {
     [Authorize]
     public class CartController : Controller
@@ -20,7 +20,7 @@ namespace FPT_BOOKSHOP.Controllers
 
         public CartController(ApplicationDbContext db)
         {
-            this._db = db;
+            _db = db;
         }
 
         public IActionResult Index(string id)
@@ -34,7 +34,7 @@ namespace FPT_BOOKSHOP.Controllers
         [HttpPost]
         public async Task<IActionResult> AddToCart(Book model, int book_id)
         {
-            if(model.quantity < 1)
+            if (model.quantity < 1)
             {
                 TempData["msg"] = "The number of quantity book to add to cart is a number greater than 1!";
                 return RedirectToAction("Detail", "Home");
@@ -135,7 +135,7 @@ namespace FPT_BOOKSHOP.Controllers
             var cart = lstCart.Where(c => c.user_id == userId).ToList();
             var user = _db.Users.Where(u => u.Id == userId).FirstOrDefault();
             var book = _db.Books.ToList();
-            
+
             foreach (var item in cart)
             {
                 var itemBook = book.Where(b => b.id == item.book_id).FirstOrDefault();
@@ -176,7 +176,7 @@ namespace FPT_BOOKSHOP.Controllers
                 });
                 var itemBook = book.Where(b => b.id == item.book_id).FirstOrDefault();
                 itemBook.quantity = itemBook.quantity - item.quantity;
-                if(itemBook.quantity == 0)
+                if (itemBook.quantity == 0)
                 {
                     itemBook.status = 0;
                 }

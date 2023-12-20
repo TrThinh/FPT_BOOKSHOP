@@ -9,16 +9,16 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace FPT_BOOKSHOP.Controllers
+namespace FPT_BOOKSHOP.Areas.Admin.Controllers
 {
     [Authorize(Roles = "admin")]
     public class AdminController : Controller
     {
-        
+
         private readonly ApplicationDbContext _db;
         public AdminController(ApplicationDbContext db)
         {
-            this._db = db;
+            _db = db;
         }
         public IActionResult Index()
         {
@@ -48,7 +48,7 @@ namespace FPT_BOOKSHOP.Controllers
             _db.SaveChanges();
             return RedirectToAction(nameof(CategoryApproval));
         }
-        
+
         public IActionResult RejectRequest(int id)
         {
             var obj = _db.Category_Requests.Find(id);
@@ -61,5 +61,5 @@ namespace FPT_BOOKSHOP.Controllers
             return RedirectToAction(nameof(CategoryApproval));
         }
     }
-    
+
 }

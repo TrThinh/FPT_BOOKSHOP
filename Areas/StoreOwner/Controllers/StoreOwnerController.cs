@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace FPT_BOOKSHOP.Controllers
+namespace FPT_BOOKSHOP.Areas.StoreOwner.Controllers
 {
     [Authorize(Roles = "storeowner")]
     public class StoreOwnerController : Controller
@@ -20,7 +20,7 @@ namespace FPT_BOOKSHOP.Controllers
 
         public StoreOwnerController(ApplicationDbContext db)
         {
-            this._db = db;
+            _db = db;
         }
         public IActionResult ViewListBooks()
         {
@@ -38,7 +38,7 @@ namespace FPT_BOOKSHOP.Controllers
                 return NotFound();
             }
             var books = from b in _db.Books select b;
-            if (!String.IsNullOrEmpty(keyword))
+            if (!string.IsNullOrEmpty(keyword))
             {
                 books = books.Where(s => s.status == 1 && s.name!.Contains(keyword));
             }

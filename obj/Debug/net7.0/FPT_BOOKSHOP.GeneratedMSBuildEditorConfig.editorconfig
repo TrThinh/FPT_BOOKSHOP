@@ -16,6 +16,98 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = A:\FPT_BOOKSHOP\FPT_BOOKSHOP
 build_property._RazorSourceGeneratorDebug = 
 
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Admin/Views/Account/AddAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxBZGRBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Admin/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Admin/Views/Admin/CategoryApproval.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQ2F0ZWdvcnlBcHByb3ZhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Admin/Views/Admin/ViewListAccounts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cVmlld0xpc3RBY2NvdW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Cart/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ2FydFxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Customer/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ3VzdG9tZXJcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Customer/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ3VzdG9tZXJcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Dashboard/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcRGFzaGJvYXJkXERpc3BsYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Home/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Home/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Home/Help.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxIZWxwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/UserAuthentication/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/UserAuthentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/UserAuthentication/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXFJlZ2lzdHJhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -176,60 +268,56 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Admin/CategoryApproval.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlBcHByb3ZhbC5jc2h0bWw=
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/StoreOwner/Views/StoreOwner/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RvcmVPd25lclxWaWV3c1xTdG9yZU93bmVyXEFkZENhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Admin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/StoreOwner/Views/StoreOwner/BestSellerBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RvcmVPd25lclxWaWV3c1xTdG9yZU93bmVyXEJlc3RTZWxsZXJCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Admin/ViewListAccounts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld0xpc3RBY2NvdW50cy5jc2h0bWw=
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/StoreOwner/Views/StoreOwner/CreateBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RvcmVPd25lclxWaWV3c1xTdG9yZU93bmVyXENyZWF0ZUJvb2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Cart/Checkout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDaGVja291dC5jc2h0bWw=
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/StoreOwner/Views/StoreOwner/DetailBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RvcmVPd25lclxWaWV3c1xTdG9yZU93bmVyXERldGFpbEJvb2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Cart/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/StoreOwner/Views/StoreOwner/UpdateBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RvcmVPd25lclxWaWV3c1xTdG9yZU93bmVyXFVwZGF0ZUJvb2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Customer/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/StoreOwner/Views/StoreOwner/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RvcmVPd25lclxWaWV3c1xTdG9yZU93bmVyXFVwZGF0ZUNhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Customer/Profile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUHJvZmlsZS5jc2h0bWw=
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/StoreOwner/Views/StoreOwner/UpdateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RvcmVPd25lclxWaWV3c1xTdG9yZU93bmVyXFVwZGF0ZU9yZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Customer/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcVXBkYXRlLmNzaHRtbA==
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/StoreOwner/Views/StoreOwner/ViewListBooks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RvcmVPd25lclxWaWV3c1xTdG9yZU93bmVyXFZpZXdMaXN0Qm9va3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Dashboard/Display.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERpc3BsYXkuY3NodG1s
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/StoreOwner/Views/StoreOwner/ViewListCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RvcmVPd25lclxWaWV3c1xTdG9yZU93bmVyXFZpZXdMaXN0Q2F0ZWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Home/AccessDenied.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/StoreOwner/Views/StoreOwner/ViewListOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RvcmVPd25lclxWaWV3c1xTdG9yZU93bmVyXFZpZXdMaXN0T3JkZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Home/Detail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWwuY3NodG1s
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/StoreOwner/Views/StoreOwner/ViewOrderDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RvcmVPd25lclxWaWV3c1xTdG9yZU93bmVyXFZpZXdPcmRlckRldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Home/Help.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIZWxwLmNzaHRtbA==
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/StoreOwner/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RvcmVPd25lclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/StoreOwner/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RvcmVPd25lclxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Shared/Error.cshtml]
@@ -242,70 +330,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/StoreOwner/AddCategory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxBZGRDYXRlZ29yeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/StoreOwner/BestSellerBook.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxCZXN0U2VsbGVyQm9vay5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/StoreOwner/CreateBook.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxDcmVhdGVCb29rLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/StoreOwner/DetailBook.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxEZXRhaWxCb29rLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/StoreOwner/UpdateBook.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxVcGRhdGVCb29rLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/StoreOwner/UpdateCategory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxVcGRhdGVDYXRlZ29yeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/StoreOwner/UpdateOrder.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxVcGRhdGVPcmRlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/StoreOwner/ViewListBooks.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxWaWV3TGlzdEJvb2tzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/StoreOwner/ViewListCategories.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxWaWV3TGlzdENhdGVnb3JpZXMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/StoreOwner/ViewListOrders.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxWaWV3TGlzdE9yZGVycy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/StoreOwner/ViewOrderDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxWaWV3T3JkZXJEZXRhaWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/UserAuthentication/AddAccount.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXEFkZEFjY291bnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/UserAuthentication/ChangePassword.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/UserAuthentication/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXExvZ2luLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/UserAuthentication/Registration.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXFJlZ2lzdHJhdGlvbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/UserAuthentication/ResetPassword.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXFJlc2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Views/_ViewImports.cshtml]

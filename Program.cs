@@ -19,7 +19,7 @@ builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<Appl
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/UserAuthentication/Login";
-    options.AccessDeniedPath = "/Home/AccessDenied";
+    options.AccessDeniedPath = "/Areas/Customer/Views/Home/AccessDenied";
 }
     );
 
@@ -44,7 +44,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
 // app.MapControllerRoute(
 //     name: "default",

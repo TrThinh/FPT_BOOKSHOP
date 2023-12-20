@@ -4,7 +4,7 @@ using FPT_BOOKSHOP.Models;
 using FPT_BOOKSHOP.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace FPT_BOOKSHOP.Controllers;
+namespace FPT_BOOKSHOP.Areas.Customer.Controllers;
 
 public class HomeController : Controller
 {
@@ -12,7 +12,7 @@ public class HomeController : Controller
 
     public HomeController(ApplicationDbContext db)
     {
-        this._db = db;
+        _db = db;
     }
     public IActionResult Index()
     {
@@ -39,7 +39,7 @@ public class HomeController : Controller
             return NotFound();
         }
         var books = from b in _db.Books select b;
-        if (!String.IsNullOrEmpty(keyword))
+        if (!string.IsNullOrEmpty(keyword))
         {
             books = books.Where(s => s.status == 1 && s.name!.Contains(keyword));
         }
@@ -51,12 +51,12 @@ public class HomeController : Controller
     {
         return View();
     }
-    
+
 
     public IActionResult AccessDenied()
     {
         return View();
     }
 
-    
+
 }

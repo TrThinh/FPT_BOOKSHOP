@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dW+d4bgyda0vrwqWHSaGOcx5HNPspRtLmee68r0t/mc=",
+  "Hash": "eAtX1Oon6zh+tBe57/WhqCOvzDiA4KA7DhhLHOydAUg=",
   "Source": "FPT_BOOKSHOP",
   "BasePath": "_content/FPT_BOOKSHOP",
   "Mode": "Default",
@@ -185,23 +185,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\bookPrograming.png",
-      "SourceId": "FPT_BOOKSHOP",
-      "SourceType": "Discovered",
-      "ContentRoot": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\",
-      "BasePath": "_content/FPT_BOOKSHOP",
-      "RelativePath": "img/bookPrograming.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\bookPrograming.png"
     },
     {
       "Identity": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\logo.png",

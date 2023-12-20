@@ -13,16 +13,16 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Identity;
 
-namespace FPT_BOOKSHOP.Controllers
+namespace FPT_BOOKSHOP.Areas.Customer.Controllers
 {
     [Authorize]
     public class CustomerController : Controller
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<User> userManager;
-        public CustomerController( ApplicationDbContext context, UserManager<User> userManager)
+        public CustomerController(ApplicationDbContext context, UserManager<User> userManager)
         {
-            this._context = context;
+            _context = context;
             this.userManager = userManager;
         }
         public IActionResult Index()
@@ -65,7 +65,8 @@ namespace FPT_BOOKSHOP.Controllers
             var user = await userManager.FindByIdAsync(model.Id);
             var userExists = await userManager.FindByNameAsync(model.UserName);
             var emailExist = await userManager.FindByEmailAsync(model.Email);
-            if(userExists != null && userExists.UserName != user.UserName){
+            if (userExists != null && userExists.UserName != user.UserName)
+            {
                 TempData["war"] = "The username has already existed!";
                 return RedirectToAction(nameof(Update));
             }
