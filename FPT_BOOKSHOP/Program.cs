@@ -19,7 +19,7 @@ builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<Appl
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/UserAuthentication/Login";
-    options.AccessDeniedPath = "/Areas/Customer/Views/Home/AccessDenied";
+    //options.AccessDeniedPath = "/Home/AccessDenied";
 }
     );
 
@@ -34,6 +34,8 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+app.UseStatusCodePagesWithRedirects("/AccessDenied?code={0}");
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
