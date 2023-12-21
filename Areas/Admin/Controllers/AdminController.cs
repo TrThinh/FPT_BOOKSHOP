@@ -61,5 +61,4 @@ namespace FPT_BOOKSHOP.Areas.Admin.Controllers
             return RedirectToAction(nameof(CategoryApproval));
         }
     }
-
 }

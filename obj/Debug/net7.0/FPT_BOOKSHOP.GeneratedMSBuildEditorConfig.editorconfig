@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = A:\FPT_BOOKSHOP\FPT_BOOKSHOP
 build_property._RazorSourceGeneratorDebug = 
 
+[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/AccessDenied/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzRGVuaWVkXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Admin/Views/Account/AddAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxBZGRBY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,10 +72,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcRGFzaGJvYXJkXERpc3BsYXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Home/AccessDenied.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Home/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -82,10 +82,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [A:/FPT_BOOKSHOP/FPT_BOOKSHOP/Areas/Customer/Views/UserAuthentication/ChangePassword.cshtml]

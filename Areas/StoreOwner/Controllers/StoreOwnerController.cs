@@ -191,19 +191,6 @@ namespace FPT_BOOKSHOP.Areas.StoreOwner.Controllers
                 if (model.status == 1)
                 {
                     order.delivery_date = DateTime.Now;
-                    // var od = _db.OrderDetails.Where(od => od.order_id == order.id).ToList();
-                    // foreach (var item in od)
-                    // {
-                    //     var book = _db.Books.Where(b => b.id == item.book_id).FirstOrDefault();
-                    //     book.quantity = book.quantity - item.book_quantity;
-                    //     if(book.quantity == 0)
-                    //     {
-                    //         book.status = 0;
-                    //     }
-                    //     _db.Update(book);
-
-                    // }
-                    // _db.SaveChanges();
                 }
 
                 if (model.status == 0)
@@ -299,14 +286,11 @@ namespace FPT_BOOKSHOP.Areas.StoreOwner.Controllers
 
         public IActionResult BestSellerBook()
         {
-            // var order = _db.Orders.Include(o => o.orders_detail).Include(o => o.orders_detail);
-            // var orderDetail = _db.OrderDetails.Include(od => od.book).Include(od => od.order).Where(od => od.order.status == 1).ToList();
             var books = _db.Books.Include(b => b.category).Include(b => b.orders_detail).
             Where(b => b.orders_detail.FirstOrDefault().order.status == 1).
             OrderByDescending(b => b.orders_detail.Where(o => o.book_id == b.id && o.order.status == 1).
             Sum(o => o.book_quantity)).ToList();
             return View(books);
         }
-
     }
 }

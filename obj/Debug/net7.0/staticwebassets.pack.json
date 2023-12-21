@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\img\\nhasachmienphi-buom-bao-thu-diep-tu.jpg"
     },
     {
+      "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\nhasachmienphi-vien-co-hanh.jpg",
+      "PackagePath": "staticwebassets\\img\\nhasachmienphi-vien-co-hanh.jpg"
+    },
+    {
       "Id": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\shopping-cart.png",
       "PackagePath": "staticwebassets\\img\\shopping-cart.png"
     },
