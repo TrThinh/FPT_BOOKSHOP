@@ -29,13 +29,22 @@
                     <td>
                         <button class="btn btn-primary" style="margin-top: 0px;">
                             <a style="color: white;" type="button" asp-route-id="@item.id" asp-action="ApproveRequest"
-                                onclick="return confirm('Are you sure that approve the request?')">Approve</a></button>
+                                onclick="return confirm('Are you sure that approve the request?')">Approve</a>
+                            </button>
                         <button class="btn btn-primary" style="margin-top: 0px;">
                             <a style="color: white;" type="button" asp-route-id="@item.id" asp-action="RejectRequest"
-                                onclick="return confirm('Are you sure that reject the request?')">Reject</a></button>
+                                onclick="return confirm('Are you sure that reject the request?')">Reject</a>
+                            </button>
                     </td>
                 }
-
+                @if (item.status == 1) {
+                    <td>
+                        <button class="btn btn-primary" style="margin-top: 0px;">
+                            <a style="color: white;" type="button" asp-route-id="@item.id" asp-action="DeleteCategory"
+                               onclick="return confirm('Are you sure that delete the category @item.name ?')">Delete</a>
+                            </button>
+                    </td>
+                }
             </tr>
         }
     </tbody>

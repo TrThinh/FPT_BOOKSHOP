@@ -60,5 +60,20 @@ namespace FPT_BOOKSHOP.Areas.Admin.Controllers
             _db.SaveChanges();
             return RedirectToAction(nameof(CategoryApproval));
         }
+
+        public IActionResult DeleteCategory(int id)
+        {
+            var category = _db.Categories.Find(id);
+            category.status = 3;
+            var books = _db.Books.Where(b => b.category_id == category.id).ToList();
+            foreach (var item in books)
+            {
+                item.status = 2;
+                _db.Update(item);
+            }
+            _db.Update(category);
+            _db.SaveChanges();
+            return RedirectToAction(nameof(CategoryApproval));
+        }
     }
 }

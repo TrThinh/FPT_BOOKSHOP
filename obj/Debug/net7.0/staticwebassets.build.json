@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g62a/vwSgDuSUZNIuR1asVsYYO2oxUZYpOgMbR+75Qs=",
+  "Hash": "9/7zhpuc3ELSDd1JAPz3E6ctloo/ktZp395chwAGhp4=",
   "Source": "FPT_BOOKSHOP",
   "BasePath": "_content/FPT_BOOKSHOP",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\nhasachmienphi-buom-bao-thu-diep-tu.jpg"
+    },
+    {
+      "Identity": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\nhasachmienphi-cong-nghe-blockchain.jpg",
+      "SourceId": "FPT_BOOKSHOP",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\",
+      "BasePath": "_content/FPT_BOOKSHOP",
+      "RelativePath": "img/nhasachmienphi-cong-nghe-blockchain.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\nhasachmienphi-cong-nghe-blockchain.jpg"
     },
     {
       "Identity": "A:\\FPT_BOOKSHOP\\FPT_BOOKSHOP\\wwwroot\\img\\nhasachmienphi-vien-co-hanh.jpg",

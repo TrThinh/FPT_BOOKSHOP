@@ -163,6 +163,8 @@ namespace FPT_BOOKSHOP.Areas.StoreOwner.Controllers
             return RedirectToAction(nameof(ViewListBooks));
         }
 
+
+        //-----------------------Order-------------------------------
         public IActionResult ViewListOrders()
         {
             var lstOrder = _db.Orders.Include(o => o.user).ToList();
@@ -213,6 +215,9 @@ namespace FPT_BOOKSHOP.Areas.StoreOwner.Controllers
             }
             return View(lstOrderDetail);
         }
+
+
+        //-----------------------Category----------------------------
         public IActionResult ViewListCategories()
         {
             var categories = _db.Categories.ToList();
