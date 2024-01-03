@@ -1,0 +1,40 @@
+﻿@model List<FPT_BOOKSHOP.Models.Book>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="slideshow">
+   <div class="slide-wrapper">
+     <div class="slide"><img src="~/img/PageScreen.png"></div>
+   </div>
+</div>
+
+<div class="container mt-3">
+<h2 class="section-title">Product</h2>
+
+
+  <div class="row">
+@foreach (var book in Model)
+{
+    @if(book.status == 1) 
+    {
+        <div class="col-md-4">
+            <div class="card">
+                <img src="~/img/@book.image" class="card-img-top"
+                alt="@book.name" style="margin: auto; width: 250px; height= 320px;"/>
+                <div class="card-body">
+                <a asp-controller="Home" asp-action="Detail" asp-route-id="@book.id" class="text-decoration-none">
+                <h5 class="card-title">@book.name</h5></a>
+                <h6 class="card-subtitle mb-2 text-muted"><span>&#36;</span>@book.price</h6>
+                <a asp-controller="Cart" asp-action="AddCart" asp-route-book_id="@book.id"
+                class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    }
+    
+}
+    
+  </div>
+</div>
